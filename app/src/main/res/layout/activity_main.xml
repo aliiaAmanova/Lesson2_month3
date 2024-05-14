@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+        android:text="Intents"
+        android:textSize="26sp"/>
+
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:id="@+id/emailAddress"
+    android:layout_marginHorizontal="16dp"
+    android:textColor="@color/black"
+    android:hint="emailAddress"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/emailAddressTheme"
+        android:text="theme"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:hint="emailtheme"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/emailAddressText"
+        android:text="Привет"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="@color/black"
+        android:hint="emailtext"/>
+
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="SEND"
+        android:backgroundTint="@color/blue"
+        android:textSize="26sp" />
+
+
+</LinearLayout>
